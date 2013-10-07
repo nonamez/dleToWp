@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dleToWp\n"
+"POT-Creation-Date: 2013-10-07 22:41+0200\n"
+"PO-Revision-Date: 2013-10-07 22:43+0200\n"
+"Last-Translator: Кирилл <nonamez123@gmail.com>\n"
+"Language-Team:  <nonamez123@gmail.com>\n"
+"Language: Русский\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: /Users/nonamez/Sites/wordpress/wp-content/plugins/"
+"dleToWp/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: dleToWp.php:89 dleToWp.php:225
+msgid "Database converter"
+msgstr "Конвертирование базы данных"
+
+#: dleToWp.php:125
+msgid "Settings"
+msgstr "Настройки"
+
+#: dleToWp.php:127
+msgid "Database"
+msgstr "База данных"
+
+#: dleToWp.php:128
+msgid "Database prefix"
+msgstr "Префикс базы"
+
+#: dleToWp.php:129
+msgid "Version"
+msgstr "Версия"
+
+#: dleToWp.php:130
+msgid "Upload images"
+msgstr "Загружать картинки"
+
+#: dleToWp.php:131
+msgid "Resize images"
+msgstr "Изменять размер изображения"
+
+#: dleToWp.php:132
+msgid "Parse BB Codes"
+msgstr "Парсить BB Коды"
+
+#: dleToWp.php:133
+msgid "Split news"
+msgstr "Разделять новости"
+
+#: dleToWp.php:141
+msgid "Database not found."
+msgstr "База данных не найдена."
+
+#: dleToWp.php:152
+msgid "Required tables with the specified prefix is not found."
+msgstr "Обязательные таблицы с заданным префиксом не обнаружены."
+
+#: dleToWp.php:172
+msgid ""
+"Currently tested on version 8.5, in development are the following versions. "
+"Wait for updates."
+msgstr ""
+"В данный момент проверено на версии 8.5, разработка следующих версий в "
+"процессе. Ждите обновлений."
+
+#: dleToWp.php:178 dleToWp.php:187 dleToWp.php:196
+msgid "Yes"
+msgstr ""
+
+#: dleToWp.php:179 dleToWp.php:188 dleToWp.php:197
+msgid "No"
+msgstr ""
+
+#: dleToWp.php:181
+msgid "Uploads all images to Wordpress."
+msgstr "Загружает все картинки в Wordpress."
+
+#: dleToWp.php:181 dleToWp.php:190
+msgid "<strong>Important: </strong>it will take more time."
+msgstr "<strong>Внимание: </strong>это займет некоторое время."
+
+#: dleToWp.php:190
+msgid "Uploaded images will be resized by Wordpress."
+msgstr "Wordpress изменит размеры загружаемых изображений."
+
+#: dleToWp.php:199
+msgid ""
+"Splits each post. <strong>Important: </strong>it uses short post length and "
+"adds <em>&lt;!--more--&gt;</em> tag after it in full post"
+msgstr ""
+"Разделяет каждую новость. <strong>Внимание: </strong>для разделение "
+"используется длина короткой новости и после неё в полной ставиться тег "
+"<em>&lt;!--more--&gt;</em>."
+
+#: dleToWp.php:205
+msgid "DLE Parser"
+msgstr "DLE парсер"
+
+#: dleToWp.php:206
+msgid "Simple Parser"
+msgstr "Простой парсер"
+
+#: dleToWp.php:208
+msgid ""
+"Parses BB codes to HTML entities.<br>\n"
+"\t\t\t<strong>Important: </strong><br>\n"
+"\t\t\t<span style=\"text-decoration: underline;\">DLE Parser</span> method "
+"uses original DLE method, so i parses all codes, but leaves some extra stuff "
+"in HTML like <span style=\"text-decoration: underline;\">&lt;!--TBegin--&gt</"
+"span> or <span style=\"text-decoration: underline;\">&lt;!--dle_image_begin:"
+"http://.....</span><br>\n"
+"\t\t\t<span style=\"text-decoration: underline;\">Simple Parser</span> "
+"method uses own small parser wich currently parses only <span style=\"text-"
+"decoration: underline;\">b, i, u , s, quote, code, url, (left|center|right), "
+"font, size, color, PAGEBREAK</span> tags<br>\n"
+"\t\t\t"
+msgstr ""
+"Преобразует BB коды в HTML сущности.<br><strong>Важно: </strong><br><span "
+"style=\"text-decoration: underline;\">DLE Парсер</span> использует "
+"оригинальные метод DLE, поэтому преобразует абсолютно все сущности, но при "
+"этому оставляем дополнительый HTML мусор типа <span style=\"text-decoration: "
+"underline;\">&lt;!--TBegin--&gt</span> или <span style=\"text-decoration: "
+"underline;\">&lt;!--dle_image_begin:http://.…….</span><br><span style=\"text-"
+"decoration: underline;\">Простой Парсер</span> использует собственный парсер "
+"который на данный момент парсит только <span style=\"text-decoration: "
+"underline;\">b, i, u , s, quote, code, url, (left|center|right), font, size, "
+"color, PAGEBREAK</span><br>"
+
+#: dleToWp.php:220
+msgid ""
+"You need to include parse class file from \"DataLife Engine\". Please copy "
+"\"/engine/classes/parse.class.php\" to this plugin directory."
+msgstr ""
+"Вам нужно добавить класс парсера текста. Для этого скопируйте файл \"/engine/"
+"classes/parse.class.php\" в директорию данного плагина."
+
+#: dleToWp.php:226
+msgid ""
+"Before starting transfer is highly recommended to do a full backup of the "
+"database in order to avoid any future problems. The author assumes no "
+"responsibility."
+msgstr ""
+"Перед началом переноса настоятельно рекомендуется сделать полную резервную "
+"копию базы данных во избежание каких-либо проблем. Автор не несет никакой "
+"ответственности."
+
+#: dleToWp.php:237
+msgid "Start transfer"
+msgstr "Начать перенос"
+
+#: dleToWp.php:238
+msgid "Stop transfer"
+msgstr "Остановить перенос"
+
+#: dleToWp.php:240
+msgid "Members transferred"
+msgstr "Пользователей перенесено"
+
+#: dleToWp.php:241
+msgid "Category transfer"
+msgstr "Категорий перенесено"
+
+#: dleToWp.php:242
+msgid "News transfer"
+msgstr "Новостей перенесено"
+
+#: dleToWp.php:243
+msgid "Comments transfer"
+msgstr "Перенос коментариев"
+
+#~ msgid "Database prefix not found."
+#~ msgstr "Префикс базы данных не найден."
+
+#~ msgid "Transfer data"
+#~ msgstr "Перенос данных"
+
+#, fuzzy
+#~ msgid "Data Transferring"
+#~ msgstr "Начать перенос"
+
+#~ msgid "Site transfer"
+#~ msgstr "Перенос данных"
+
+#~ msgid "User transfer"
+#~ msgstr "SAFDSD"
+
+#~ msgid ""
+#~ "This module provides the ability to convert (transfer users, posts, "
+#~ "comments and etc.) from \"DataLife Engine\" to \"Wordpress\"."
+#~ msgstr ""
+#~ "Данный модуль предоставляет возможность конвертирования (переноса "
+#~ "пользователей, новостей, коментариев и т.д.) из \"DataLife Engine\" в "
+#~ "\"Wordpress\"."
+
+#~ msgid "Сonversion of database"
+#~ msgstr "Конвертирование базы данных"
+
+#~ msgid "Title"
+#~ msgstr "fadsdfa"
